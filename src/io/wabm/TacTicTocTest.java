@@ -18,9 +18,9 @@ public class TacTicTocTest {
     public void testTacTicToc() {
         log.enableLog();
 
-        TacFactory tac;
-        TicFacotry tic;
-        TocFactory toc;
+        TacFactory tac = null;
+        TicFacotry tic = null;
+        TocFactory toc = null;
 
         tac.sayTac();
         tic.sayTic();
