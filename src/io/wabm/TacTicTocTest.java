@@ -2,6 +2,7 @@ package io.wabm;
 
 import static org.junit.Assert.*;
 
+
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.contrib.java.lang.system.SystemOutRule;
@@ -19,7 +20,7 @@ public class TacTicTocTest {
         log.enableLog();
 
         TacFactory tac = null;
-        TicFacotry tic = null;
+        TicFactory tic = null;
         TocFactory toc = null;
 
         tac.sayTac();

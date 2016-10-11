@@ -8,7 +8,7 @@ import org.junit.contrib.java.lang.system.SystemOutRule;
 /**
  * Created by MFK on 2016-10-11.
  */
-public class TicFacotryTest {
+public class TicFactoryTest {
 
     @Rule
     public final SystemOutRule log = new SystemOutRule();
@@ -16,7 +16,7 @@ public class TicFacotryTest {
     @Test
     public void testTic() {
         log.enableLog();
-        TicFacotry Mrfucking = new MFKTic();
+        TicFactory Mrfucking = new MFKTic();
         Mrfucking.sayTic();
 
         assertEquals("Tic", log.getLog());
